@@ -1,0 +1,50 @@
+*{
+    margin: 200;
+    padding:200;
+    box-sizing: border-box;
+}
+:root{
+    --dark-color: #361999;
+    --laight-color: #78fff1;
+
+}
+body{
+    height: 100vh;
+    background:linear-gradient(to right top ,var(--dark-color),var(--laight-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom-block{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 80px;
+    background: linear-gradient(to right top,#361999,#78fff1);
+}
+button{
+    background: linear-gradient(to right top,#361999,#78fff1);
+    border: 1px solid #78fff1;
+    color: white;
+    padding: 10px 20px;
+    font: size 16px;
+    border-radius:8px;
+    cursor: pointer;
+    margin-left: 82px;
+}
+input{
+    background: linear-gradient(to right top,#361999,#78fff1);
+    border: 1px solid #78fff1 ;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 12px;
+    
+}
+::placeholder{
+color: white;
+}
